@@ -41,7 +41,5 @@ jobs:
       with:
         name: test-reports
         path: |
-          target/surefire-reports
           reports
-          screenshots
         retention-days: 30 
