@@ -42,4 +42,12 @@ jobs:
         name: test-reports
         path: |
           reports
-        retention-days: 30 
+        retention-days: 30
+
+    - name: Upload to Backblaze B2
+      if: always()
+      run: |
+        aws s3 cp reports s3://${{ secrets.B2_BUCKET_NAME }}/test-reports/ --recursive --endpoint-url https://${{ secrets.B2_ENDPOINT }}
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.B2_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.B2_APPLICATION_KEY }}
