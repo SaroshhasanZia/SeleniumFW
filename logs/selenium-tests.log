@@ -268,3 +268,57 @@
 2025-05-04 17:23:28.009 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
 2025-05-04 17:23:28.017 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
 2025-05-04 17:23:28.412 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+2025-05-04 17:40:11.646 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
+2025-05-04 17:40:11.648 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
+2025-05-04 17:40:11.648 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+2025-05-04 17:40:11.649 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
+2025-05-04 17:40:11.651 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
+2025-05-04 17:40:11.652 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing invalid login
+2025-05-04 17:40:11.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_user' in element: Username field
+2025-05-04 17:40:11.743 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_password' in element: Password field
+2025-05-04 17:40:12.492 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
+2025-05-04 17:40:12.500 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Error message
+2025-05-04 17:40:12.501 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should be visible
+2025-05-04 17:40:12.502 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should be visible
+2025-05-04 17:40:12.515 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'Your username is invalid!
+×' from element: Error message
+2025-05-04 17:40:12.515 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should contain expected text
+2025-05-04 17:40:12.515 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should contain expected text
+2025-05-04 17:40:12.517 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+2025-05-04 17:40:12.633 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+2025-05-04 17:40:13.136 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+2025-05-04 17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
+2025-05-04 17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
+2025-05-04 17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+2025-05-04 17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
+2025-05-04 17:40:18.946 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
+2025-05-04 17:40:18.947 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing successful login
+2025-05-04 17:40:19.002 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'tomsmith' in element: Username field
+2025-05-04 17:40:19.027 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'SuperSecretPassword!' in element: Password field
+2025-05-04 17:40:19.667 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
+2025-05-04 17:40:19.675 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Success message
+2025-05-04 17:40:19.675 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should be visible
+2025-05-04 17:40:19.675 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should be visible
+2025-05-04 17:40:19.685 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'You logged into a secure area!
+×' from element: Success message
+2025-05-04 17:40:19.686 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should contain expected text
+2025-05-04 17:40:19.686 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should contain expected text
+2025-05-04 17:40:19.686 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+2025-05-04 17:40:19.695 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+2025-05-04 17:40:20.082 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+2025-05-04 17:40:25.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: DropdownTest
+2025-05-04 17:40:25.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
+2025-05-04 17:40:25.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+2025-05-04 17:40:25.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: DropdownTest
+2025-05-04 17:40:26.049 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: Test Invalid Dropdown Option
+2025-05-04 17:40:26.049 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Attempting to select non-existent option 'Invalid Option'
+2025-05-04 17:40:26.318 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option 'Option 1' from dropdown: Dropdown
+2025-05-04 17:40:26.318 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option
+2025-05-04 17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option is 'Option 1' from dropdown: Dropdown
+2025-05-04 17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option: Option 1
+2025-05-04 17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option is 'valid Option'
+2025-05-04 17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Selected option should contain expected option
+2025-05-04 17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Selected option should contain expected option
+2025-05-04 17:40:26.339 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+2025-05-04 17:40:26.346 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+2025-05-04 17:40:26.739 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.849" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.353" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250504172303517_3.jar /Users/sarosh/selenium-framework/target/surefire 2025-05-04T17-23-03_480-jvmRun1 surefire-20250504172303517_1tmp surefire_0-20250504172303517_2tmp"/>
+    <property name="sun.java.command" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250504174004332_3.jar /Users/sarosh/selenium-framework/target/surefire 2025-05-04T17-40-04_290-jvmRun1 surefire-20250504174004332_1tmp surefire_0-20250504174004332_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/sarosh/selenium-framework/target/test-classes:/Users/sarosh/selenium-framework/target/classes:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/sarosh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/sarosh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/sarosh/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/sarosh/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sarosh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sarosh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sarosh/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/sarosh/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/sarosh/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/sarosh/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/sarosh/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/sarosh/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/sarosh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sarosh/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/sarosh/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/sarosh/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/sarosh/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/sarosh/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/sarosh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/sarosh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/sarosh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/sarosh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/sarosh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250504172303517_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250504174004332_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -59,48 +59,48 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testInvalidLogin" classname="com.selenium.framework.tests.LoginTest" time="0.876">
-    <system-out><![CDATA[17:23:12.882 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
-17:23:12.884 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
-17:23:12.884 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
-17:23:12.884 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
-17:23:12.886 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
-17:23:12.887 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing invalid login
-17:23:12.960 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_user' in element: Username field
-17:23:12.987 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_password' in element: Password field
-17:23:13.740 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
-17:23:13.749 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Error message
-17:23:13.751 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should be visible
-17:23:13.751 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should be visible
-17:23:13.764 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'Your username is invalid!
+  <testcase name="testInvalidLogin" classname="com.selenium.framework.tests.LoginTest" time="0.861">
+    <system-out><![CDATA[17:40:11.646 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
+17:40:11.648 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
+17:40:11.648 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+17:40:11.649 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
+17:40:11.651 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
+17:40:11.652 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing invalid login
+17:40:11.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_user' in element: Username field
+17:40:11.743 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_password' in element: Password field
+17:40:12.492 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
+17:40:12.500 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Error message
+17:40:12.501 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should be visible
+17:40:12.502 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should be visible
+17:40:12.515 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'Your username is invalid!
 ×' from element: Error message
-17:23:13.764 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should contain expected text
-17:23:13.764 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should contain expected text
+17:40:12.515 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should contain expected text
+17:40:12.515 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should contain expected text
 ]]></system-out>
   </testcase>
-  <testcase name="testSuccessfulLogin" classname="com.selenium.framework.tests.LoginTest" time="0.755">
-    <system-out><![CDATA[17:23:13.766 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
-17:23:13.980 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
-17:23:14.486 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
-17:23:20.410 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
-17:23:20.410 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
-17:23:20.411 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
-17:23:20.411 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
-17:23:20.412 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
-17:23:20.413 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing successful login
-17:23:20.472 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'tomsmith' in element: Username field
-17:23:20.491 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'SuperSecretPassword!' in element: Password field
-17:23:21.148 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
-17:23:21.155 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Success message
-17:23:21.155 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should be visible
-17:23:21.155 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should be visible
-17:23:21.167 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'You logged into a secure area!
+  <testcase name="testSuccessfulLogin" classname="com.selenium.framework.tests.LoginTest" time="0.74">
+    <system-out><![CDATA[17:40:12.517 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+17:40:12.633 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+17:40:13.136 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
+17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
+17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+17:40:18.945 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
+17:40:18.946 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
+17:40:18.947 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing successful login
+17:40:19.002 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'tomsmith' in element: Username field
+17:40:19.027 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'SuperSecretPassword!' in element: Password field
+17:40:19.667 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
+17:40:19.675 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Success message
+17:40:19.675 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should be visible
+17:40:19.675 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should be visible
+17:40:19.685 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'You logged into a secure area!
 ×' from element: Success message
-17:23:21.167 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should contain expected text
-17:23:21.167 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should contain expected text
+17:40:19.686 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should contain expected text
+17:40:19.686 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should contain expected text
 ]]></system-out>
-    <system-err><![CDATA[May 04, 2025 5:23:14 PM org.openqa.selenium.os.ExternalProcess$Builder lambda$start$0
-WARNING: failed to copy the output of process 69641
+    <system-err><![CDATA[May 04, 2025 5:40:13 PM org.openqa.selenium.os.ExternalProcess$Builder lambda$start$0
+WARNING: failed to copy the output of process 71223
 java.io.IOException: Stream closed
 	at java.base/java.io.BufferedInputStream.ensureOpen(BufferedInputStream.java:206)
 	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:411)
@@ -113,26 +113,26 @@ java.io.IOException: Stream closed
 
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidDropdownOption" classname="com.selenium.framework.tests.DropdownTest" time="0.341">
-    <system-out><![CDATA[17:23:21.168 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
-17:23:21.177 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
-17:23:21.579 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
-17:23:27.326 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: DropdownTest
-17:23:27.327 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
-17:23:27.327 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
-17:23:27.327 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: DropdownTest
-17:23:27.668 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: Test Invalid Dropdown Option
-17:23:27.668 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Attempting to select non-existent option 'Invalid Option'
-17:23:27.988 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option 'Option 1' from dropdown: Dropdown
-17:23:27.988 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option
-17:23:28.008 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option is 'Option 1' from dropdown: Dropdown
-17:23:28.008 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option: Option 1
-17:23:28.008 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option is 'valid Option'
-17:23:28.008 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Selected option should contain expected option
-17:23:28.009 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Selected option should contain expected option
+  <testcase name="testInvalidDropdownOption" classname="com.selenium.framework.tests.DropdownTest" time="0.29">
+    <system-out><![CDATA[17:40:19.686 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+17:40:19.695 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+17:40:20.082 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+17:40:25.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: DropdownTest
+17:40:25.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: firefox
+17:40:25.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+17:40:25.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: DropdownTest
+17:40:26.049 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: Test Invalid Dropdown Option
+17:40:26.049 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Attempting to select non-existent option 'Invalid Option'
+17:40:26.318 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option 'Option 1' from dropdown: Dropdown
+17:40:26.318 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option
+17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option is 'Option 1' from dropdown: Dropdown
+17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option: Option 1
+17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option is 'valid Option'
+17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Selected option should contain expected option
+17:40:26.338 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Selected option should contain expected option
 ]]></system-out>
-    <system-err><![CDATA[May 04, 2025 5:23:21 PM org.openqa.selenium.os.ExternalProcess$Builder lambda$start$0
-WARNING: failed to copy the output of process 69698
+    <system-err><![CDATA[May 04, 2025 5:40:20 PM org.openqa.selenium.os.ExternalProcess$Builder lambda$start$0
+WARNING: failed to copy the output of process 71286
 java.io.IOException: Stream closed
 	at java.base/java.io.BufferedInputStream.ensureOpen(BufferedInputStream.java:206)
 	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:411)
