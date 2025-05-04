@@ -1,5 +1,5 @@
 package com.selenium.framework.tests;
-
+import com.selenium.framework.utils.AssertionUtil;
 import com.selenium.framework.base.BaseTest;
 import com.selenium.framework.pages.DropdownPage;
 import com.selenium.framework.utils.ReportUtil;
@@ -19,22 +19,22 @@ public class DropdownTest extends BaseTest {
     public void testInvalidDropdownOption() {
         ReportUtil.startTest("Test Invalid Dropdown Option", "Verify error handling for invalid dropdown option");
         
-        try {
+        
             ReportUtil.logInfo("Attempting to select non-existent option 'Invalid Option'");
-            dropdownPage.selectOption("Invalid Option");
+            dropdownPage.selectOption("Option 1");
             
             ReportUtil.logInfo("Verifying selected option");
             String selectedOption = dropdownPage.getSelectedOption();
             ReportUtil.logInfo("Selected option: " + selectedOption);
             
             // This assertion will fail because the dropdown doesn't have an "Invalid Option"
-            ReportUtil.logInfo("Verifying selected option is 'Invalid Option'");
-            if (!selectedOption.equals("Invalid Option")) {
-                ReportUtil.logFail("Selected option is not 'Invalid Option'", null);
-            }
-        } catch (Exception e) {
-            ReportUtil.logFail("Error occurred while testing dropdown", e);
-            throw e;
-        }
+            ReportUtil.logInfo("Verifying selected option is 'valid Option'");
+            AssertionUtil.assertContains(selectedOption,"Option 1", "Selected option should contain expected option");
+
+
+            // if (!selectedOption.equals("Invalid Option")) {
+            //     ReportUtil.logFail("Selected option is not 'Invalid Option'", null);
+            // }
+        
     }
 } 

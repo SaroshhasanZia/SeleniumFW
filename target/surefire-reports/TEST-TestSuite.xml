@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.462" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.752" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250503215940378_3.jar /Users/sarosh/selenium-framework/target/surefire 2025-05-03T21-59-40_341-jvmRun1 surefire-20250503215940378_1tmp surefire_0-20250503215940378_2tmp"/>
+    <property name="sun.java.command" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250504120301789_3.jar /Users/sarosh/selenium-framework/target/surefire 2025-05-04T12-03-01_753-jvmRun1 surefire-20250504120301789_1tmp surefire_0-20250504120301789_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/sarosh/selenium-framework/target/test-classes:/Users/sarosh/selenium-framework/target/classes:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/sarosh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/sarosh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/sarosh/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/sarosh/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sarosh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sarosh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sarosh/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/sarosh/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/sarosh/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/sarosh/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/sarosh/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/sarosh/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/sarosh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/sarosh/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/sarosh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sarosh/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/sarosh/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/sarosh/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/sarosh/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/sarosh/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/sarosh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/sarosh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/sarosh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/sarosh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/sarosh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250503215940378_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sarosh/selenium-framework/target/surefire/surefirebooter-20250504120301789_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -59,162 +59,78 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testInvalidLogin" classname="com.selenium.framework.tests.LoginTest" time="0.863">
-    <system-out><![CDATA[21:59:45.591 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
-21:59:45.592 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: chrome
-21:59:45.593 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
-21:59:45.593 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
-21:59:45.596 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
-21:59:45.597 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing invalid login
-21:59:45.748 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_user' in element: Username field
-21:59:45.803 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_password' in element: Password field
-21:59:45.863 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
-21:59:46.437 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Error message
-21:59:46.438 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should be visible
-21:59:46.439 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should be visible
-21:59:46.458 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'Your username is invalid!
+  <testcase name="testInvalidLogin" classname="com.selenium.framework.tests.LoginTest" time="0.956">
+    <system-out><![CDATA[12:03:07.191 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
+12:03:07.193 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: chrome
+12:03:07.193 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+12:03:07.194 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
+12:03:07.196 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
+12:03:07.197 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing invalid login
+12:03:07.352 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_user' in element: Username field
+12:03:07.402 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'invalid_password' in element: Password field
+12:03:08.115 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
+12:03:08.131 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Error message
+12:03:08.132 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should be visible
+12:03:08.132 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should be visible
+12:03:08.151 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'Your username is invalid!
 ×' from element: Error message
-21:59:46.458 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should contain expected text
-21:59:46.458 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should contain expected text
+12:03:08.152 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Error message should contain expected text
+12:03:08.152 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Error message should contain expected text
 ]]></system-out>
-    <system-err><![CDATA[May 03, 2025 9:59:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 04, 2025 12:03:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-May 03, 2025 9:59:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 04, 2025 12:03:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 135.0.7049.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testSuccessfulLogin" classname="com.selenium.framework.tests.LoginTest" time="3.257">
-    <system-out><![CDATA[21:59:46.460 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
-21:59:46.573 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
-21:59:46.655 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
-21:59:48.455 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
-21:59:48.457 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: chrome
-21:59:48.457 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
-21:59:48.458 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
-21:59:48.459 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
-21:59:48.459 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing successful login
-21:59:51.015 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'tomsmith' in element: Username field
-21:59:51.068 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'SuperSecretPassword!' in element: Password field
-21:59:51.113 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
-21:59:51.695 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Success message
-21:59:51.695 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should be visible
-21:59:51.695 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should be visible
-21:59:51.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'You logged into a secure area!
+  <testcase name="testSuccessfulLogin" classname="com.selenium.framework.tests.LoginTest" time="3.317">
+    <system-out><![CDATA[12:03:08.153 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+12:03:08.266 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+12:03:08.354 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+12:03:10.241 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: LoginTest
+12:03:10.241 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: chrome
+12:03:10.241 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+12:03:10.241 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: LoginTest
+12:03:10.242 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting login test
+12:03:10.242 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Testing successful login
+12:03:12.839 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'tomsmith' in element: Username field
+12:03:12.897 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Entered text 'SuperSecretPassword!' in element: Password field
+12:03:13.525 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Clicked on element: Submit button
+12:03:13.540 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Element is visible: Success message
+12:03:13.540 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should be visible
+12:03:13.540 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should be visible
+12:03:13.559 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Retrieved text 'You logged into a secure area!
 ×' from element: Success message
-21:59:51.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should contain expected text
-21:59:51.716 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should contain expected text
+12:03:13.560 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Success message should contain expected text
+12:03:13.560 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Success message should contain expected text
 ]]></system-out>
-    <system-err><![CDATA[May 03, 2025 9:59:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 04, 2025 12:03:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-May 03, 2025 9:59:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 04, 2025 12:03:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 135.0.7049.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidDropdownOption" classname="com.selenium.framework.tests.DropdownTest" time="20.152">
-    <failure message="Cannot locate option with text: Invalid Option&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;23.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-Cannot locate option with text: Invalid Option
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '23.0.2'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
-	at com.selenium.framework.utils.WebDriverUtil.selectByVisibleText(WebDriverUtil.java:95)
-	at com.selenium.framework.pages.DropdownPage.selectOption(DropdownPage.java:34)
-	at com.selenium.framework.tests.DropdownTest.testInvalidDropdownOption(DropdownTest.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-    <system-out><![CDATA[21:59:51.717 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
-21:59:51.725 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
-21:59:51.804 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
-21:59:53.801 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: DropdownTest
-21:59:53.801 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: chrome
-21:59:53.801 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
-21:59:53.801 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: DropdownTest
-21:59:56.461 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: Test Invalid Dropdown Option
-21:59:56.461 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Attempting to select non-existent option 'Invalid Option'
-22:00:16.599 [TestNG-tests-1] ERROR c.s.framework.utils.LoggerUtil - Failed to select option from dropdown: Dropdown
-org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Invalid Option
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '23.0.2'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
-	at com.selenium.framework.utils.WebDriverUtil.selectByVisibleText(WebDriverUtil.java:95)
-	at com.selenium.framework.pages.DropdownPage.selectOption(DropdownPage.java:34)
-	at com.selenium.framework.tests.DropdownTest.testInvalidDropdownOption(DropdownTest.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-22:00:16.607 [TestNG-tests-1] ERROR c.s.framework.utils.LoggerUtil - FAIL: Error occurred while testing dropdown
-org.openqa.selenium.NoSuchElementException: Cannot locate option with text: Invalid Option
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '23.0.2'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
-	at com.selenium.framework.utils.WebDriverUtil.selectByVisibleText(WebDriverUtil.java:95)
-	at com.selenium.framework.pages.DropdownPage.selectOption(DropdownPage.java:34)
-	at com.selenium.framework.tests.DropdownTest.testInvalidDropdownOption(DropdownTest.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
+  <testcase name="testInvalidDropdownOption" classname="com.selenium.framework.tests.DropdownTest" time="0.096">
+    <system-out><![CDATA[12:03:13.560 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Test passed successfully
+12:03:13.569 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test completed
+12:03:13.653 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test teardown completed
+12:03:18.102 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: DropdownTest
+12:03:18.104 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Browser: chrome
+12:03:18.104 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - URL: https://the-internet.herokuapp.com/login
+12:03:18.104 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Test setup completed for: DropdownTest
+12:03:18.418 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Starting test: Test Invalid Dropdown Option
+12:03:18.418 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Attempting to select non-existent option 'Invalid Option'
+12:03:18.476 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option 'Option 1' from dropdown: Dropdown
+12:03:18.476 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option
+12:03:18.513 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option is 'Option 1' from dropdown: Dropdown
+12:03:18.513 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Selected option: Option 1
+12:03:18.513 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Verifying selected option is 'valid Option'
+12:03:18.513 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - PASS: Assertion passed: Selected option should contain expected option
+12:03:18.513 [TestNG-tests-1] INFO  c.s.framework.utils.LoggerUtil - Assertion passed: Selected option should contain expected option
 ]]></system-out>
-    <system-err><![CDATA[May 03, 2025 9:59:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 04, 2025 12:03:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 135
-May 03, 2025 9:59:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 04, 2025 12:03:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 135.0.7049.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
