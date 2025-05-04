@@ -15,7 +15,7 @@ public class DropdownPage {
     public DropdownPage(WebDriver driver) {
         this.driver = driver;
         this.webDriverUtil = new WebDriverUtil(driver);
-        PageFactory.initElements(driver, this);
+        // PageFactory.initElements(driver, this);
     }
     
     public void navigateTo(String url) {

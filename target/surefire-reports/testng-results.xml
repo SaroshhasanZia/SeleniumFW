@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-04T12:03:02 GMT+08:00" name="Selenium Framework Test Suite" finished-at="2025-05-04T12:03:18 GMT+08:00" duration-ms="16446">
+  <suite started-at="2025-05-04T17:23:03 GMT+08:00" name="Selenium Framework Test Suite" finished-at="2025-05-04T17:23:28 GMT+08:00" duration-ms="24536">
     <groups>
     </groups>
-    <test started-at="2025-05-04T12:03:02 GMT+08:00" name="Login and Dropdown Tests" finished-at="2025-05-04T12:03:18 GMT+08:00" duration-ms="16446">
+    <test started-at="2025-05-04T17:23:03 GMT+08:00" name="Login and Dropdown Tests" finished-at="2025-05-04T17:23:28 GMT+08:00" duration-ms="24536">
       <class name="com.selenium.framework.tests.LoginTest">
-        <test-method is-config="true" signature="setup(boolean)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:02 GMT+08:00" name="setup" finished-at="2025-05-04T12:03:07 GMT+08:00" duration-ms="5034" status="PASS">
+        <test-method is-config="true" signature="setup(boolean)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:03 GMT+08:00" name="setup" finished-at="2025-05-04T17:23:12 GMT+08:00" duration-ms="8987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:07 GMT+08:00" name="setup" finished-at="2025-05-04T12:03:07 GMT+08:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:12 GMT+08:00" name="setup" finished-at="2025-05-04T17:23:12 GMT+08:00" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:07 GMT+08:00" name="testInvalidLogin" finished-at="2025-05-04T12:03:08 GMT+08:00" duration-ms="956" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:12 GMT+08:00" name="testInvalidLogin" finished-at="2025-05-04T17:23:13 GMT+08:00" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:08 GMT+08:00" name="tearDown" finished-at="2025-05-04T12:03:08 GMT+08:00" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:13 GMT+08:00" name="tearDown" finished-at="2025-05-04T17:23:14 GMT+08:00" duration-ms="721" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(boolean)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:08 GMT+08:00" name="setup" finished-at="2025-05-04T12:03:10 GMT+08:00" duration-ms="1886" status="PASS">
+        <test-method is-config="true" signature="setup(boolean)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:14 GMT+08:00" name="setup" finished-at="2025-05-04T17:23:20 GMT+08:00" duration-ms="5924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:10 GMT+08:00" name="testSuccessfulLogin" finished-at="2025-05-04T12:03:13 GMT+08:00" duration-ms="3318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulLogin -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:10 GMT+08:00" name="setup" finished-at="2025-05-04T12:03:10 GMT+08:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:20 GMT+08:00" name="setup" finished-at="2025-05-04T17:23:20 GMT+08:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T12:03:13 GMT+08:00" name="tearDown" finished-at="2025-05-04T12:03:13 GMT+08:00" duration-ms="93" status="PASS">
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:20 GMT+08:00" name="testSuccessfulLogin" finished-at="2025-05-04T17:23:21 GMT+08:00" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.framework.tests.LoginTest@33ecda92]" started-at="2025-05-04T17:23:21 GMT+08:00" name="tearDown" finished-at="2025-05-04T17:23:21 GMT+08:00" duration-ms="411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.selenium.framework.tests.LoginTest -->
       <class name="com.selenium.framework.tests.DropdownTest">
-        <test-method is-config="true" signature="setup(boolean)[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T12:03:13 GMT+08:00" name="setup" finished-at="2025-05-04T12:03:18 GMT+08:00" duration-ms="4451" status="PASS">
+        <test-method is-config="true" signature="setup(boolean)[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T17:23:21 GMT+08:00" name="setup" finished-at="2025-05-04T17:23:27 GMT+08:00" duration-ms="5747" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,15 +80,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T12:03:18 GMT+08:00" name="setup" finished-at="2025-05-04T12:03:18 GMT+08:00" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T17:23:27 GMT+08:00" name="setup" finished-at="2025-05-04T17:23:27 GMT+08:00" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInvalidDropdownOption()[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T12:03:18 GMT+08:00" name="testInvalidDropdownOption" finished-at="2025-05-04T12:03:18 GMT+08:00" duration-ms="96" status="PASS">
+        <test-method signature="testInvalidDropdownOption()[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T17:23:27 GMT+08:00" name="testInvalidDropdownOption" finished-at="2025-05-04T17:23:28 GMT+08:00" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidDropdownOption -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T12:03:18 GMT+08:00" name="tearDown" finished-at="2025-05-04T12:03:18 GMT+08:00" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.framework.tests.DropdownTest@66ea810]" started-at="2025-05-04T17:23:28 GMT+08:00" name="tearDown" finished-at="2025-05-04T17:23:28 GMT+08:00" duration-ms="404" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -7,7 +7,7 @@ import java.util.Properties;
 public class Config {
     private static final Properties properties = new Properties();
     private static final String CONFIG_FILE = "src/main/resources/config.properties";
-    private static final String GRID_URL = System.getProperty("gridUrl", "http://localhost:4444/wd/hub");
+private static final String GRID_URL = System.getProperty("gridUrl", "http://localhost:4444/wd/hub");
 
     static {
         try {
@@ -22,7 +22,7 @@ public class Config {
     }
 
     public static String getBrowser() {
-        return properties.getProperty("browser", "chrome");
+        return properties.getProperty("browser");
     }
 
     public static String getGridUrl() {
@@ -30,16 +30,20 @@ public class Config {
     }
 
     public static boolean isHeadless() {
-        return Boolean.parseBoolean(properties.getProperty("headless", "false"));
+        return Boolean.parseBoolean(properties.getProperty("headless"));
     }
 
     public static int getImplicitWait() {
-        return Integer.parseInt(properties.getProperty("implicit.wait", "10"));
+        return Integer.parseInt(properties.getProperty("implicit.wait"));
     }
 
     public static int getPageLoadTimeout() {
-        return Integer.parseInt(properties.getProperty("page.load.timeout", "30"));
+        return Integer.parseInt(properties.getProperty("page.load.timeout"));
     }
+
+    // public static String getBaseUrl() {
+    //     return properties.getProperty("base.url", "");
+    // }
 
     public static String getChromeDriverPath() {
         return properties.getProperty("chrome.driver.path", "");
