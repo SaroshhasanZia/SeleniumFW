@@ -47,6 +47,7 @@ jobs:
     - name: Upload to Backblaze B2
       if: always()
       run: |
+        export AWS_S3_DISABLE_CHECKSUM_VALIDATION=true
         aws s3 cp reports s3://${{ secrets.B2_BUCKET_NAME }}/test-reports/ --recursive --endpoint-url https://${{ secrets.B2_ENDPOINT }}
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.B2_KEY_ID }}
